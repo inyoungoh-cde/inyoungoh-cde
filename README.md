@@ -1,6 +1,6 @@
 ### Inyoung Oh
 
-Postdoctoral Researcher, Visual Intelligence Group, KIST · PhD, GIST (2026)
+Postdoctoral Researcher, [Visual Intelligence Group](https://vig.kist.re.kr/), KIST · PhD, GIST (2026)
 
 I build the geometric half of 3D perception. Learned and foundation models recognize *what is where* but stay geometrically loose: they blur the boundaries and discontinuities where 3D structure lives, and they lose absolute scale.
 
