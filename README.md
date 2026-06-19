@@ -1,16 +1,18 @@
-## Hi there 👋
+### Inyoung Oh
 
-<!--
-**inyoungoh-cde/inyoungoh-cde** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Postdoctoral Researcher, Visual Intelligence Group, KIST · PhD, GIST (2026)
 
-Here are some ideas to get you started:
+I build the geometric half of 3D perception. Learned and foundation models recognize *what is where* but stay geometrically loose: they blur the boundaries and discontinuities where 3D structure lives, and they lose absolute scale.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My approach is one principle: find the geometric relation a model gets wrong, then supply the explicit cue that fixes it. For one problem that cue is a surface-normal field, for another a sharp-feature descriptor, for another a ground plane. I feed it into learned and semantic models so the recovered 3D becomes metric and structurally consistent.
+
+The work follows one arc: from point clouds, to image-grounded 3D, toward fusing explicit geometry into semantic foundation models. Each project below is an instance of that approach, not the point of it.
+
+**Selected work**
+
+- **[SFD-Net](https://github.com/inyoungoh-cde/SFD-Net)** · [project page](https://inyoungoh-cde.github.io/SFD-Net/) — sharp features as discontinuities of the normal field: a compact, architecture-agnostic descriptor that improves any point-cloud backbone and transfers zero-shot from CAD to real scans. *ECCV 2026.*
+- **[Multi-scale normal estimation](https://github.com/inyoungoh-cde/DeepLearningNormalEstimation)** — stabilizing surface normals under non-uniform sampling and noise.
+- **Normal-guided LiDAR segmentation** — injecting physically grounded normals to sharpen safety-critical boundaries (JCDE, 2023).
+- **Metric relocalization from a moving camera** (KIST, in preparation) — recovering metric 3D via the ground-plane normal, carrying the same geometry from point clouds into 2D-to-3D.
+
+**Elsewhere:** [Homepage](https://inyoungoh-cde.github.io/) · [Google Scholar](https://scholar.google.co.kr/citations?hl=en&user=e3h5YtAAAAAJ&view_op=list_works&sortby=pubdate) · [LinkedIn](https://www.linkedin.com/in/iyohcde/)
