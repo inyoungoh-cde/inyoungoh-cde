@@ -10,7 +10,7 @@ The work follows one arc: from point clouds, to image-grounded 3D, toward fusing
 
 **Selected work**
 
-- **[SFD-Net](https://github.com/inyoungoh-cde/SFD-Net)** · [project page](https://inyoungoh-cde.github.io/SFD-Net/) — sharp features as discontinuities of the normal field: a compact, architecture-agnostic descriptor that improves any point-cloud backbone and transfers zero-shot from CAD to real scans. *[ECCV](https://eccv.ecva.net/) 2026.*
+- **[SFD-Net](https://github.com/inyoungoh-cde/SFD-Net)** · [project page](https://inyoungoh-cde.github.io/SFD-Net/) — sharp features as discontinuities of the normal field: a compact, architecture-agnostic descriptor that improves different point-cloud backbones and transfers zero-shot from CAD to real scans. *[ECCV](https://eccv.ecva.net/) 2026.*
 - **[Multi-scale normal estimation](https://github.com/inyoungoh-cde/DeepLearningNormalEstimation)** — stabilizing surface normals under non-uniform sampling and noise ([IJIG](https://www.worldscientific.com/worldscinet/IJIG?srsltid=AfmBOoq15eXNYhlsTrT4qEWLhb9VLQZge0MC5JfHmjObFX2zb-dGxpx7), 2026).
 - **Normal-guided LiDAR segmentation** — injecting physically grounded normals to sharpen safety-critical boundaries ([JCDE](https://academic.oup.com/jcde), 2023).
 - **Metric relocalization from a moving camera** (KIST, in preparation) — recovering metric 3D via the ground-plane normal, carrying the same geometry from point clouds into 2D-to-3D.
